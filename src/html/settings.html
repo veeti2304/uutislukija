@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Uutislukija</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/settings.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <script src="../js/main.js"></script>
+  </head>
+  <body>
+    <div class="content">
+      <div class="left">
+        <div id="bottom">
+          <ul>
+            <li><a class="asetukset" href="index.html"><i class="fa-solid fa-house"></i> Etusivulle</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="right">
+        <div class="news">
+            <h2>Asetukset <i class="fa-solid fa-cog"></i></h2> 
+            <h4>Käytössä olevat uutislähteet: </h4>
+            <form>
+                <input type="checkbox" id="yle" name="yle" value="yle" checked>
+                <label for="yle">Yle Uutiset</label><br>
+                <input type="checkbox" id="iltalehti" name="iltalehti" value="iltalehti" checked>
+                <label for="iltalehti">Iltalehti</label><br>
+                <input type="checkbox" id="suomenuutiset" name="suomenuutiset" value="suomenuutiset" checked>
+                <label for="suomenuutiset">Suomen Uutiset</label><br>
+                <button onclick="tallennaUutislahde()">Tallenna Uutislähteet</button>
+            </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

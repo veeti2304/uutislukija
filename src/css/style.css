@@ -1,0 +1,128 @@
+body {
+    background-color: #eaeaea;
+    color: #141414;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4vw;
+    margin: 0;
+    padding: 0;
+}
+
+.content .left {
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #2c2c2c;
+    color: #eaeaea;
+    border-right: 1px solid #141414;
+}
+
+.content .right {
+    display: inline-block;
+    margin-left: 30%;
+    width: 70%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #eaeaea;
+    color: #2c2c2c;
+}
+
+.news {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li a {
+    background-color: #9c9c9c;
+    color: #292929;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+li a:hover {
+    background-color: #a5a5a5;
+}
+
+.yle {
+    background-color: #00b4c8;
+    color: #e8e8e8;
+    font-size: 1.2vw;
+    font-weight: lighter;
+}
+
+.yle:hover {
+    background-color: rgb(41, 149, 159);
+    color: #e8e8e8;
+}
+
+.iltalehti {
+    background-color: #e8e2e2;
+    color: #c61a1a;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2vw;
+}
+
+.iltalehti:hover {
+    background-color: #c61a1a;
+    color: #e8e2e2;
+}
+
+@font-face {
+    font-family: InstrumentSerif;
+    src: url("../fonts/InstrumentSerif-Regular.ttf");
+}
+
+.suomenuutiset {
+    background-color: #1b1585;
+    color: #cabb49;
+    font-family: InstrumentSerif;
+    font-size: 1.2vw;
+}
+
+.suomenuutiset:hover {
+    background-color: #130e63;
+    color: #dfcd44;
+}
+
+.left #bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.asetukset {
+    background-color: #5c5c5c;
+    color: #eeeeee;
+    font-size: 1.2vw;
+    cursor: pointer;
+}
+
+.asetukset:hover {
+    background-color: #4c4c4c;
+}
