@@ -181,7 +181,7 @@ th {
 }
 
 td {
-    background-color: #eaeaea;
+    background-color: #b8b8b8;
     color: #2c2c2c;
     padding: 5px;
     border: 1px solid #141414;
@@ -189,4 +189,28 @@ td {
 
 tr:nth-child(even) {
     background-color: #d4d4d4;
+}
+
+.ok {
+    background-color: #9fbeff;
+}
+
+.vk {
+    background-color: #ff9f9f;
+}
+
+.n {
+    background-color: #dbdbdb;
+}
+
+.vo {
+    background-color: #658ee7;
+}
+
+.et {
+    background-color: #dbdbdb;
+}
+
+.vv {
+    background-color: #fc8d8d;
 }
