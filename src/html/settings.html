@@ -22,12 +22,33 @@
       <div class="right">
         <div class="news">
             <h2 style="text-align: center; margin-top: 40px;">Asetukset <i class="fa-solid fa-cog"></i></h2>
-			<div id="tiedot">
-				<h4>Sovelluksen tiedot</h4>
-				<p>Nimi: Uutislukija</p>
-				<p>Versio: 1.0.0</p>
-				<p>Tekijä: github.com/veeti2304</p>
-			</div>
+            <div id="settings">
+              <input type="checkbox"> <label>Käytä tyyliteltyjä uutisnappeja</label>
+              <br>
+              <script>
+                $(document).ready(function() {
+                  if (localStorage.getItem("tyylitellytNapit") == "true") {
+                    $("input[type='checkbox']").prop("checked", true);
+                  } else {
+                    $("input[type='checkbox']").prop("checked", false);
+                  }
+                });
+                function tallennaAsetukset() {
+                  if ($("input[type='checkbox']").prop("checked") == true) {
+                    localStorage.setItem("tyylitellytNapit", "true");
+                  } else {
+                    localStorage.setItem("tyylitellytNapit", "false");
+                  }
+                }
+              </script>
+              <button onclick="tallennaAsetukset()" class="submit">Tallenna</button>
+            </div>
+            <div id="tiedot">
+              <h4>Sovelluksen tiedot</h4>
+              <p>Nimi: Uutislukija</p>
+              <p>Versio: 1.0.0</p>
+              <p>Tekijä: github.com/veeti2304</p>
+            </div>
         </div>
       </div>
     </div>
