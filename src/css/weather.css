@@ -9,6 +9,9 @@
     width: 100px;
     height: 100px;
     margin-right: 60px;
+    background-color: #e1e1e1;
+    padding: 9px;
+    border-radius: 4px;
 }
 
 .forecast-item .forecast-date {

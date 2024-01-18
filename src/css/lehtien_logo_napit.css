@@ -1,0 +1,81 @@
+.yle {
+    background-color: #00b4c8;
+    color: #e8e8e8;
+    font-size: 1.2vw;
+    font-weight: lighter;
+}
+
+.yle:hover {
+    background-color: rgb(41, 149, 159);
+    color: #e8e8e8;
+}
+
+.iltalehti {
+    background-color: #e8e2e2;
+    color: #c61a1a;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2vw;
+}
+
+.iltalehti:hover {
+    background-color: #c61a1a;
+    color: #e8e2e2;
+}
+
+@font-face {
+    font-family: InstrumentSerif;
+    src: url("../fonts/InstrumentSerif-Regular.ttf");
+}
+
+.suomenuutiset {
+    background-color: #1b1585;
+    color: #cabb49;
+    font-family: InstrumentSerif;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+.suomenuutiset:hover {
+    background-color: #130e63;
+    color: #dfcd44;
+}
+
+.kaleva {
+    background-color: #ff860e;
+    color: #f9f9f9;
+    font-size: 1.2vw;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+}
+
+.kaleva:hover {
+    background-color: #cd7516;
+    color: #f9f9f9;
+}
+
+.hesari {
+    background-color: #0d009a;
+    color: #f5f5f5;
+    font-size: 1.1vw;
+    font-family: 'Pacifico', cursive;
+}
+
+.hesari:hover {
+    background-color: #281b70;
+    color: #e2e2e2;
+}
+
+.kauppalehti {
+    background-color: #efefef;
+    color: #281b70;
+    font-size: 1.5vw;
+    font-family: InstrumentSerif, sans-serif;
+    font-weight: bold;
+}
+
+.kauppalehti:hover {
+    background-color: #e4e3e3;
+    color: #2d1d86;
+}
