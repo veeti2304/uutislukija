@@ -1,4 +1,6 @@
 // Uutislähteet JSON
+// Tähän voi halutessaan lisätä uusia uutislähteitä jos niiltä löytyy rss feedi.
+
 let lahteet = [
     {
       "id": "yle",
