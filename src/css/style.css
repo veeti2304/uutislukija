@@ -5,7 +5,6 @@ body {
     font-size: 1.4vw;
     margin: 0;
     padding: 0;
-    overflow: scroll;
 }
 
 .content .left {
@@ -30,6 +29,28 @@ body {
     right: 0;
     background-color: #eaeaea;
     color: #2c2c2c;
+    overflow-y: scroll;
+}
+
+.content .right::-webkit-scrollbar {
+    width: 5px;
+}
+
+.content .right::-webkit-scrollbar-track {
+    background: #eaeaea;
+}
+
+.content .right::-webkit-scrollbar-thumb {
+    background-color: #1f66ff;
+    transition: background-color 0.3s;
+}
+
+.content .right::-webkit-scrollbar-thumb:hover {
+    background-color: #0f48c2;
+}
+
+.content .right::-webkit-scrollbar-thumb:active {
+    background-color: #0f48c2;
 }
 
 .news {
@@ -41,10 +62,28 @@ body {
     color: #1f66ff;
     text-decoration: none;
     cursor: pointer;
+    transition: color 0.3s;
 }
 
 .news a:hover {
+    color: #0e2557;
+}
+
+.news-title {
+    font-size: 1.4vw;
     font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.news-description {
+    font-size: 1.2vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.news-pubDate {
+    font-size: 0.8vw;
+    color: #5c5c5c;
 }
 
 ul {
