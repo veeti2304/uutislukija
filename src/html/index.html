@@ -5,6 +5,9 @@
     <title>Uutislukija | Koti</title>
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lora:ital,wght@1,700&family=Pacifico&family=Satisfy&display=swap" rel="stylesheet"> 
     <script src="../js/news.js"></script>
     <script src="../js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -12,11 +15,16 @@
   <body>
     <div class="content">
       <div class="left">
-        <ul>
-          <li><a class="yle" onclick="valitseUutislahde('yle')">Yle Uutiset</a></li>
-          <li><a class="iltalehti" onclick="valitseUutislahde('il')">Iltalehti</a></li>
-          <li><a class="suomenuutiset" onclick="valitseUutislahde('su')">Suomen Uutiset</a></li>
-        </ul>
+        <div id="napit">
+          <ul>
+            <li><a class="yle" onclick="valitseUutislahde('yle')">Yle Uutiset</a></li>
+            <li><a class="iltalehti" onclick="valitseUutislahde('il')">Iltalehti</a></li>
+            <li><a class="suomenuutiset" onclick="valitseUutislahde('su')">Suomen Uutiset</a></li>
+            <li><a class="kaleva" onclick="valitseUutislahde('kal')">Kaleva</a></li>
+            <li><a class="hesari" onclick="valitseUutislahde('hs')">Helsingin Sanomat</a></li>
+            <li><a class="kauppalehti" onclick="valitseUutislahde('kl')">Kauppalehti</a></li>
+          </ul>
+        </div>
         <div id="bottom">
           <ul>
             <li><a class="saa" href="weather.html"><i class="fa-solid fa-sun"></i> Säätiedote</a></li>

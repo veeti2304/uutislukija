@@ -14,7 +14,22 @@ let lahteet = [
       "id": "il",
       "title": "Iltalehti",
       "url": "https://www.iltalehti.fi/rss/uutiset.xml"
-    }
+    },
+	{
+		"id": "kal",
+		"title": "Kaleva",
+		"url": "https://www.kaleva.fi/feedit/rss/managed-listing/rss-uusimmat/"
+	},
+	{
+		"id": "hs",
+		"title": "Helsingin Sanomat",
+		"url": "https://www.hs.fi/rss/kotimaa.xml"
+	},
+	{
+		"id": "kl",
+		"title": "Kauppalehti",
+		"url": "https://feeds.kauppalehti.fi/rss/main"
+	}
 ];
 
 var naytetaanUutisia = false;

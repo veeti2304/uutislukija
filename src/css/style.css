@@ -14,7 +14,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #2c2c2c;
+    background-color: #292929;
     color: #eaeaea;
     border-right: 1px solid #141414;
 }
@@ -160,10 +160,50 @@ li a:hover {
     color: #dfcd44;
 }
 
+.kaleva {
+    background-color: #ff860e;
+    color: #f9f9f9;
+    font-size: 1.2vw;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+}
+
+.kaleva:hover {
+    background-color: #cd7516;
+    color: #f9f9f9;
+}
+
+.hesari {
+    background-color: #0d009a;
+    color: #f5f5f5;
+    font-size: 1.1vw;
+    font-family: 'Pacifico', cursive;
+}
+
+.hesari:hover {
+    background-color: #281b70;
+    color: #e2e2e2;
+}
+
+.kauppalehti {
+    background-color: #efefef;
+    color: #281b70;
+    font-size: 1.5vw;
+    font-family: InstrumentSerif, sans-serif;
+    font-weight: bold;
+}
+
+.kauppalehti:hover {
+    background-color: #e4e3e3;
+    color: #2d1d86;
+}
+
 .left #bottom {
     position: absolute;
     bottom: 0;
+    left: 0;
     width: 100%;
+    display: block;
     text-align: center;
     margin-bottom: 5px;
 }
@@ -194,4 +234,20 @@ li a:hover {
 
 .saa .fa-sun {
     color: #faf43a;
+}
+
+.porssi {
+    background-color: #e5e5e5;
+    color: #000;
+    font-size: 1.2vw;
+    cursor: default;
+    font-weight: bold;
+}
+
+.porssi:hover {
+    background-color: #d5d5d5;
+}
+
+.porssi .fa-arrow-trend-up {
+    color: #00b4c8;
 }
