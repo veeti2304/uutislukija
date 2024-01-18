@@ -1,3 +1,1 @@
-function tallennaUutislahteet(asetukset) {
-    
-}
+// ei vielä mitään

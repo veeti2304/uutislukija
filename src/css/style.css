@@ -9,7 +9,7 @@ body {
 
 .content .left {
     display: inline-block;
-    width: 30%;
+    width: 20%;
     height: 100%;
     position: fixed;
     top: 0;
@@ -21,8 +21,8 @@ body {
 
 .content .right {
     display: inline-block;
-    margin-left: 30%;
-    width: 70%;
+    margin-left: 20%;
+    width: 80%;
     height: 100%;
     position: fixed;
     top: 0;
@@ -66,7 +66,7 @@ body {
 }
 
 .news a:hover {
-    color: #0e2557;
+    color: #003cbc;
 }
 
 .news-title {
