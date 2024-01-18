@@ -1,0 +1,25 @@
+#forecast {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.forecast-item {
+    width: 100px;
+    height: 100px;
+    margin-right: 60px;
+}
+
+.forecast-item .forecast-date {
+    font-size: 1.0vw;
+    font-weight: bold;
+}
+
+.forecast-item .forecast-weather {
+    font-size: 1.0vw;
+}
+
+.forecast-item .forecast-temperature {
+    font-size: 1.0vw;
+}

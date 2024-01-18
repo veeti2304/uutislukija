@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Uutislukija | Säätiedote</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/weather.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <script src="../js/weather.js"></script>
+  </head>
+  <body>
+    <div class="content">
+      <div class="left">
+        <div id="bottom">
+          <ul>
+            <li><a class="asetukset" href="index.html"><i class="fa-solid fa-house"></i> Etusivulle</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="right">
+        <div class="jutut" style="margin-left: 60px; margin-top: 60px;">
+            <h2 style="text-align: center;">Sääennuste - <span id="cityname">Ladataan...</span></h2>
+            <br>
+            <div id="forecast">
+              <p style="text-align: center;">Ladataan tietoja...</p>
+            </div>
+        </div>
+        <br><br>
+        <p style="text-align: center; font-size: 0.9vw;">Paikannus perustuu IP osoitteen sijaintiin, joten se saattaa näyttää jopa eri kaupunkia.</p>
+        <br>
+        <pre style="text-align: center; font-size: 0.8vw;">Säätiedot tarjoaa: open-meteo.com<br>Säätiedot saattavat olla virheellisiä varsinkin varsinaisen sään suhteen, lämpötilat ovat yleensä oikein.</pre>
+      </div>
+    </div>
+  </body>
+</html>
