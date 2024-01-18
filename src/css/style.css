@@ -27,7 +27,7 @@ body {
     position: fixed;
     top: 0;
     right: 0;
-    background-color: #eaeaea;
+    background-color: #e9e9e9;
     color: #2c2c2c;
     overflow-y: scroll;
 }
@@ -169,6 +169,16 @@ li a:hover {
 table {
     border-collapse: collapse;
     width: 65%;
+}
+
+::-moz-selection {
+    background: #0c4dda;
+    color: #fff;
+}
+
+::selection {
+    background: #0c4dda;
+    color: #fff;
 }
 
 th {

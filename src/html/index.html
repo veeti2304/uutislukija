@@ -37,12 +37,10 @@
         <div class="news">
           <div id="help">
             <h1>Tervetuloa!</h1>
-            <h3>Uutiset näkyvät tässä, kun olet valinnut uutislähteen.</h3> <br>
-            <p>Jos sinua kiinnostaa säätiedot, voit halutessasi nähdä 7 päivän sääennusteen painamalla "<i class="fa-solid fa-sun"></i> Säätiedote" nappia.</p>
-            <p>Voit myös halutessasi muokata sovelluksen asetuksia painamalla "<i class="fa-solid fa-cog"></i> Asetukset" nappia.</p>
-            <p>Tämän hetkisinä uutislähteinä on toimitettu kuusi vaihtoehtoa joilla on kaikilla erilaiset poliittiset näkökulmat.</p>
-            <p>Pääset takaisin tähän näkymään painamalla jotakin uutislähde nappia uudelleen.</p>
-            <br>
+            <h4>Uutiset näkyvät tässä, kun olet valinnut uutislähteen.</h4>
+            <h4>Tänään on <span id="date"></span></h4>
+            <br><br><br>
+            <h3>Taulukko uutislähteiden poliittista näkökulmista:</h3>
             <table>
               <tr>
                 <th>Uutislähde</th>
@@ -73,11 +71,52 @@
                 <td class="ok">Oikealle kallistuva</td>
               </tr>
             </table>
+            <br>
+            <div style="font-size: 1.25vw;" id="jotai">
+              <p>Jos sinua kiinnostaa säätiedot, voit halutessasi nähdä 7 päivän sääennusteen painamalla "<i class="fa-solid fa-sun"></i> Säätiedote" nappia.</p>
+              <p>Voit myös halutessasi muokata sovelluksen asetuksia painamalla "<i class="fa-solid fa-cog"></i> Asetukset" nappia.</p>
+              <p>Tämän hetkisinä uutislähteinä on toimitettu kuusi vaihtoehtoa joilla on kaikilla erilaiset poliittiset näkökulmat.</p>
+              <p>Pääset takaisin tähän näkymään painamalla jotakin uutislähde nappia uudelleen.</p>
+            </div>
           </div>
           <div id="newsDisp">
           </div>
         </div>
       </div>
     </div>
+    <script>
+      var dateElem = document.getElementById("date");
+      var date = new Date();
+      var day = date.getDate();
+      var month = date.getMonth() + 1;
+      var year = date.getFullYear();
+      var pvm = day + "." + month + "." + year;
+      var viikko = date.getDay();
+      var viikonpaiva = "";
+      switch (viikko) {
+        case 0:
+          viikonpaiva = "Sunnuntai";
+          break;
+        case 1:
+          viikonpaiva = "Maanantai";
+          break;
+        case 2:
+          viikonpaiva = "Tiistai";
+          break;
+        case 3:
+          viikonpaiva = "Keskiviikko";
+          break;
+        case 4:
+          viikonpaiva = "Torstai";
+          break;
+        case 5:
+          viikonpaiva = "Perjantai";
+          break;
+        case 6:
+          viikonpaiva = "Lauantai";
+          break;
+      }
+      dateElem.innerHTML = viikonpaiva + " " + pvm;
+    </script>
   </body>
 </html>
