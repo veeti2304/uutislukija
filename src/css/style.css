@@ -5,6 +5,7 @@ body {
     font-size: 1.4vw;
     margin: 0;
     padding: 0;
+    overflow: scroll;
 }
 
 .content .left {
