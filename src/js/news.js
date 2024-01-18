@@ -57,7 +57,7 @@ function valitseUutislahde(id) {
 				var pubDate = el.find("pubDate").text();
 
 				uutisetHTML += `<div class="news-item">
-					<div class="news-title"><a href="${link}">${title}</a></div>
+					<div class="news-title"><a onclick="window.open('${link}', '_blank')">${title}</a></div>
 					<div class="news-description">${description}</div>
 					<div class="news-pubDate">${pubDate}</div>
 					</div><br>`;

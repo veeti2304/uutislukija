@@ -37,6 +37,16 @@ body {
     margin-top: 30px;
 }
 
+.news a {
+    color: #1f66ff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.news a:hover {
+    font-weight: bold;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -60,6 +70,7 @@ li a {
     margin-top: 10px;
     margin-bottom: 10px;
     transition: background-color 0.3s;
+    cursor: default;
 }
 
 li a:hover {
@@ -122,7 +133,7 @@ li a:hover {
     background-color: #5c5c5c;
     color: #eeeeee;
     font-size: 1.2vw;
-    cursor: pointer;
+    cursor: default;
     font-weight: bold;
 }
 
@@ -134,7 +145,7 @@ li a:hover {
     background-color: #5dc8e5;
     color: #fff;
     font-size: 1.2vw;
-    cursor: pointer;
+    cursor: default;
     font-weight: bold;
 }
 
